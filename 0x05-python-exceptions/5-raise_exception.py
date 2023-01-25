@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 def raise_exception():
-    raise 
+    wrong_code = 13 + "37"
