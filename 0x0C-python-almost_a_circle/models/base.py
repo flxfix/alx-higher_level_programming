@@ -1,25 +1,16 @@
 #!/usr/bin/python3
-"""function
-    """
-
-
-import json
-import turtle
-import random
-import csv
-
+""" Class Base will be the 'base' of all other classes """
 
 
 class Base:
-    """class base
-    """
+    """ This class will be the 'base' of all other classes """
+
     __nb_objects = 0
 
     def __init__(self, id=None):
-        """function
-        """
+        """ init method """
         if id is not None:
             self.id = id
         else:
             Base.__nb_objects += 1
-            self.id = Base.
+            self.id = Base.__nb_objects
